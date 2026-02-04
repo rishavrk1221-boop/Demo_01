@@ -3,7 +3,7 @@ body {
   margin: 0;
   height: 100vh;
   overflow: hidden;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Papyrus', cursive;
 }
 
 .hidden { display: none; }
@@ -107,7 +107,7 @@ h2 {
 @keyframes showText { to { opacity: 1; } }
 
 .btn {
-  background: #e1f0fa;
+  background: #ff4da6;
   color: white;
   padding: 12px;
   margin: 10px;
