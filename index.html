@@ -1,56 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>For Anjali ❤️</title>
-  <link rel="stylesheet" href="style.css">
+<title>For Sonam ❤️</title>
+
+<!-- Romantic Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>Dear Anjali 💖</h1>
+<div id="startScreen">
 
-<div class="gallery">
-  <img src="images/photo1.jpg" alt="photo1">
-  <img src="images/photo2.jpg" alt="photo2">
-  <img src="images/photo3.jpg" alt="photo3">
+  <div class="introBox">
+
+    <h1 class="title">For My Sonam 💌</h1>
+
+    <p class="quote">
+      "Some surprises are not opened with hands,  
+      but with the heart..."
+    </p>
+
+    <button class="startBtn" onclick="startSite()">
+      A surprises For You 💖
+    </button>
+
+  </div>
+
 </div>
 
-<div class="letter">
-<p>
-Anjali,  
-Even from dooron dooron, you feel close to my heart.  
-You are not just a part of my life,  
-you are the reason my life feels beautiful.  
-
-Every smile of yours feels like home,  
-every message from you feels like warmth,  
-and every moment with you becomes a memory  
-I never want to lose.  
-</p>
-
-<p class="sign">
-— Yours always, Rishav ❤️
-</p>
-</div>
-
-<button class="btn" onclick="playMusic()">Play Our Song 🎵</button>
-
-<button class="btn" onclick="startGame()">
-Will You Be My Valentine? 💌
-</button>
 
 <audio id="song">
   <source src="images/song.mp3">
 </audio>
 
-<div id="gameBox" class="hidden">
-  <h2>Anjali, will you be my Valentine?</h2>
+<div id="main" class="hidden"></div>
 
-  <button class="yes" onclick="yes()">YES 😍</button>
-  <button class="no" onmouseover="moveNo()">NO 😜</button>
-</div>
+<div class="hearts"></div>
 
 <script src="script.js"></script>
-
 </body>
 </html>
