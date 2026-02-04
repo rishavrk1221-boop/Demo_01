@@ -62,7 +62,7 @@ function next(){
  if(step==2)
  m.innerHTML=page(
  "💍 Propose Day",
- "photo9",
+ "photo2",
  "Sonam, I don’t have grand promises or fancy lines, I only know that being with you feels right. I want to share simple moments, laughter, and silences with you. Will you let me be someone special in your life?"
  );
 
